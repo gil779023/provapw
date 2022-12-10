@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+header {
+    border-radius: 15px;
+    
+    background: no-repeat center/cover url(https://futebolpeneira.com.br/wp-content/uploads/2018/03/paysandu.jpg);
+    height: calc(60vh - 150px);
+}
+
+h1{color: brown;
+    text-align: center;
+
+}
+
+.tw {
+    margin-top: 10px;
+    width: 400px;
+    height: 400px;
+}
+
+.imag img{
+    border-radius: 15px;
+}
+
+.imag .lore{
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.servicos {
+    padding: 15px;
+}
+
+.servicos .servicos-title {
+    text-align: center;
+    margin: 35px 0;
+}
+
+.servicos .servicos-cards {
+    margin-top: 25px;
+    display: flex;
+    max-width: 950px;
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.servicos .card {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.servicos .card svg {
+    width: 60px;
+    height: 60px;
+    margin: 50px;
+    transition: all 1s;
+}
+
+.servicos .card svg:hover {
+    stroke: #1d61dd;
+    transform: scale(1.1);
+}
+
+.servicos .card h3 {
+    font-weight: bold;
+}
+
+.servicos .card p {
+    color: gray;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.servicos .card .card-content {
+    height: 180px;
+    text-align: center;
+}
+
+.abaixo {
+    border-radius: 15px;
+    margin: 10px;
+    background-color: rgb(139, 141, 168);
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+
